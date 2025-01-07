@@ -164,30 +164,9 @@
       ],
       "designWidth": 90
     },
-    "gtr3": {
+    "gtr-3": {
       "module": {
-        "page": {
-          "pages": [
-            "page/home/index.page",
-            "page/light/index.page",
-            "page/light/effectPicker.page",
-            "page/media_player/index.page",
-            "page/test_page/index.page"
-          ],
-          "window": {
-            "navigationBarBackgroundColor": "#ffffff",
-            "navigationBarTextStyle": "black",
-            "navigationBarTitleText": "Home Assistant",
-            "backgroundColor": "#eeeeee",
-            "backgroundTextStyle": "light"
-          }
-        },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
-        }
+        // ···
       },
       "platforms": [
         {
@@ -195,11 +174,12 @@
           "deviceSource": 226
         },
         {
-          "name": "gtr-3-w",
+          "name": "gtr-3w",
           "deviceSource": 227
-        },
+        }
       ],
-      "designWidth": 100
+      "designWidth": 480
+    }
     },
     "balance": {
       "module": {
